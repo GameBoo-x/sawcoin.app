@@ -26,14 +26,14 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    margin-left: 20px; /* مسافة بين الأيقونة والنص لتظهر على اليمين */
+    margin-left: 25px; /* مسافة بين الأيقونة والنص لتظهر على اليمين */
 }
 
 .Play-game-button {
     position: fixed;
    /* top: 60px;*/
     bottom: 120px;
-    left: -20px; /* وضع الزر داخل الشاشة بشكل طبيعي */
+    left: -21px; /* وضع الزر داخل الشاشة بشكل طبيعي */
     background-color: rgba(255, 255, 255, 0.05);
     font-size: 16px;
     border: 1px solid #343434;
