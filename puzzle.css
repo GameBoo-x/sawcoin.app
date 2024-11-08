@@ -15,8 +15,8 @@
 }
 
 #Puzzlespage .puzzle-item {
-    width: 100%; /* عرض الحاوية بنسبة 44% */
-    height: 150px;
+    width: 88%; /* عرض الحاوية بنسبة 44% */
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
