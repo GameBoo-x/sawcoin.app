@@ -1,16 +1,58 @@
 
 #Puzzlespage .puzzles-container {
-    display: grid; /* استخدام grid بدلاً من flex */
+    display: grid;
     grid-template-columns: repeat(2, 1fr); /* عمودين في كل صف */
-    gap: 10px; /* المسافة بين الأزرار */
-    justify-items: center; /* محاذاة الأزرار في المنتصف */
-    margin-top: 10px; /* المسافة من الأعلى */
+    gap: 20px; /* المسافة بين الأزرار */
+    justify-items: center;
+    margin-top: 10px;
+}
+
+#Puzzlespage .puzzle-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #343434;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    text-align: center;
 }
 
 #Puzzlespage .puzzle-image {
     width: 100px;
-    margin: 0 auto ;
-    display: block;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#Puzzlespage .puzzle-description {
+    color: white;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+#Puzzlespage .puzzle-btn {
+    background: url('puzzle.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #343434;
+    width: 88%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#Puzzlespage .puzzle-btn:hover {
+    background: linear-gradient(90deg, #562a04, #794106, #9f620c, #d69a1c);
+    background-position: center;
 }
 
 #Puzzlespage .puzzle2-image {
