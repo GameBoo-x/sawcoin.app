@@ -1186,8 +1186,8 @@ body {
     position: absolute;
     top: 10px;
     left: 15px;
-    padding: 4px; /* مسافة داخلية */
-    font-size: 20px; /* حجم الخط */
+    padding: 5px; /* مسافة داخلية */
+    font-size: 18px; /* حجم الخط */
     display: flex;
     align-items: center; /* لضبط المحاذاة الرأسية */
     border-radius: 10px; /* زوايا دائرية */
