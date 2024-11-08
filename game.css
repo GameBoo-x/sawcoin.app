@@ -98,39 +98,23 @@
     flex-grow: 1; /* ليشغل النص المساحة المتوسطة */
 }
 
-#gamePage .game-button {
+.game-item button {
     background-color: rgba(0, 0, 0, 0.7);
     color: #ffffff;
+    padding: 8px;
     border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 1rem;
     cursor: pointer;
-    font-weight: bold;
+    width: 30%;
     transition: background-color 0.3s;
+    border: none;
+    font-weight: bold;
+    font-size: var(--claim-button-size);
     border: 1px solid #343434;
-    margin-left: 10px; /* مسافة بين النص والزر */
+    z-index: 10;
 }
-
+ 
 #gamePage .game-button:hover {
     background: linear-gradient(90deg, #562a04, #794106, #9f620c, #d69a1c);
-}
-
-/* ضبط العرض على الشاشات الصغيرة */
-@media (max-width: 768px) {
-    #gamePage .game-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    #gamePage .game-item img {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    #gamePage .game-button {
-        margin-left: 0;
-    }
 }
 
 
