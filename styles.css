@@ -1186,11 +1186,18 @@ body {
     position: absolute;
     top: 10px;
     left: 15px;
-    padding: 10px; /* مسافة داخلية اختيارية */
+    padding: 10px; /* مسافة داخلية */
     font-size: 20px; /* حجم الخط */
     display: flex;
-    align-items: center; /* لضبط المحاذاة الرأسية بدقة */
+    align-items: center; /* لضبط المحاذاة الرأسية */
+    border-radius: 10px; /* زوايا دائرية */
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff; /* لون النص */
+    transition: padding 0.2s ease; /* تأثير بسيط عند التمدد */
+    min-width: 50px; /* عرض أدنى للعنصر */
+    white-space: nowrap; /* لمنع النص من الانتقال إلى سطر جديد */
 }
+
 
 #tasksBalanceDisplay::before, #levelBalanceDisplay::before, #gameBalanceDisplay::before,
 #walletBalanceDisplay::before, #puzzlesBalanceDisplay::before, #boostsBalanceDisplay::before, #AccountBalanceDisplay::before {
