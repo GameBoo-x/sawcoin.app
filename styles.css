@@ -755,7 +755,8 @@ body {
     justify-content: flex-start; /* محاذاة العناصر نحو اليسار */
     margin: 10px 0;
     padding: 8px;
-    background: #1c1c1c;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* تأثير الضبابية */
     border-radius: 10px;
     max-width: 400px;
     width: 88%;
@@ -1052,7 +1053,6 @@ body {
 /*   width: 88% !important;
     height: 50px !important;*/
 }
-
 
 
 /* تنسيق معلومات المستوى الحالي */
