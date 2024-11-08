@@ -31,8 +31,8 @@
 
 
 .daily-icon {
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
     flex-shrink: 0;
     border-radius: 50%; 
 }
