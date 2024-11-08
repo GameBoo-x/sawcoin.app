@@ -62,7 +62,7 @@
 #Puzzlespage .Caesar-btu, 
 #Puzzlespage .room-btu, 
 #Puzzlespage .Numbers-btu {
-    background: #1c1c1c; 
+    background-color: rgba(255, 255, 255, 0.05);
     color: #fff;
     border-radius: 10px;
     font-size: 18px;
@@ -72,7 +72,7 @@
     width: 70%; /* العرض 90% */
     display: block; /* لجعل العنصر يعمل ككتلة */
     margin: 0 auto 15px; /* لمركزة الزر في المنتصف */
-    height: 40px;
+    height: 35px;
 }
 
 #Puzzlespage .puzzle-btn:hover {
