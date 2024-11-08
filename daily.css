@@ -2,13 +2,13 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    margin-right: 25px; /* مسافة بين الأيقونة والنص لتظهر على اليمين */
+    margin-right: 35px; /* مسافة بين الأيقونة والنص لتظهر على اليمين */
 }
 
 .Daily-button {
     position: fixed;
     bottom: 165px;
-    right: -25px; /* وضع الزر داخل الشاشة بشكل طبيعي */
+    right: -35px; /* وضع الزر داخل الشاشة بشكل طبيعي */
     background-color: rgba(255, 255, 255, 0.05);
     font-size: 16px;
     border: 1px solid #343434;
