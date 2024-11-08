@@ -1,7 +1,7 @@
 #Puzzlespage .puzzles-container {
     display: grid; /* استخدام grid بدلاً من flex */
     grid-template-columns: repeat(2, 1fr); /* عمودين في كل صف */
-    gap: 15px; /* المسافة بين الأزرار */
+    gap: 10px; /* المسافة بين الأزرار */
     justify-items: center; /* محاذاة الأزرار في المنتصف */
     margin-top: 10px; /* المسافة من الأعلى */
 }
