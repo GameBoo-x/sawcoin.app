@@ -7,15 +7,15 @@
 }*/
 
 #Puzzlespage .puzzles-container {
-    display: flex;  /* لجعل الحاويات تعرض جنبًا إلى جنب */
-    flex-wrap: wrap; /* لتمكين الحاويات من الانتقال إلى السطر التالي إذا لزم الأمر */
-    gap: 20px; /* المسافة بين الحاويات */
+    display: grid;
+    grid-template-columns: repeat(2, 44%); /* عرض كل عنصرين بجانب بعض */
+    gap: 20px; /* المسافة بين العناصر */
     justify-content: center; /* محاذاة العناصر في المنتصف */
     margin-top: 10px;
 }
 
 #Puzzlespage .puzzle-item {
-    width: 44%; /* عرض الحاوية بنسبة 44% */
+    width: 100%; /* عرض الحاوية بنسبة 44% */
     height: 150px;
     display: flex;
     flex-direction: column;
