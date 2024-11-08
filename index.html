@@ -218,26 +218,44 @@
       </div>
 
          <!-- Puzzle Page -->
-      <div id="Puzzlespage" class="screen-content scrollable">
-       <p><span id="puzzlesBalanceDisplay">0</span></p>
-             <img src="i/Puzzle_today.png" alt="puzzle Image" class="puzzle-image">
-             <p> Puzzles And Ciphers </p>
-        <div class="puzzles-container">
-          <div class="boost-item">
-           
-             <button id="openPuzzleBtn" class="puzzle-btn"> Daily puzzle </button>
-           
-             <button id="openMorseCipherBtn" class="Morse-code"> Morse Cipher </button>
-
-             <button id="CaesarBtn" class="Caesar-btu">   Caesar Cipher </button>
-           
-             <button id="bombBtn" class="bomb-btu">   Puzzle bomb </button>
-    
-             <button id="TheroomBtn" class="room-btu">   The room  </button>
-        
-             <button id="TheNumbersBtn" class="Numbers-btu">  Numbers </button>
+<div id="Puzzlespage" class="screen-content scrollable">
+    <p><span id="puzzlesBalanceDisplay">0</span></p>
+    <img src="i/Puzzle_today.png" alt="puzzle Image" class="puzzle-image">
+    <p>Puzzles And Ciphers</p>
+    <div class="puzzles-container">
+        <div class="puzzle-item">
+            <img src="daily-puzzle.jpg" alt="Daily Puzzle" class="puzzle-image">
+            <p class="puzzle-description">Solve the daily puzzle and earn rewards!</p>
+            <button id="openPuzzleBtn" class="puzzle-btn">Daily Puzzle</button>
         </div>
-     </div>
+        <div class="puzzle-item">
+            <img src="morse-cipher.jpg" alt="Morse Cipher" class="puzzle-image">
+            <p class="puzzle-description">Decipher Morse code to reveal the message!</p>
+            <button id="openMorseCipherBtn" class="Morse-code">Morse Cipher</button>
+        </div>
+        <div class="puzzle-item">
+            <img src="caesar-cipher.jpg" alt="Caesar Cipher" class="puzzle-image">
+            <p class="puzzle-description">Crack the Caesar cipher code!</p>
+            <button id="CaesarBtn" class="Caesar-btu">Caesar Cipher</button>
+        </div>
+        <div class="puzzle-item">
+            <img src="puzzle-bomb.jpg" alt="Puzzle Bomb" class="puzzle-image">
+            <p class="puzzle-description">Defuse the puzzle bomb!</p>
+            <button id="bombBtn" class="bomb-btu">Puzzle Bomb</button>
+        </div>
+        <div class="puzzle-item">
+            <img src="the-room.jpg" alt="The Room" class="puzzle-image">
+            <p class="puzzle-description">Escape the room by solving the puzzles!</p>
+            <button id="TheroomBtn" class="room-btu">The Room</button>
+        </div>
+        <div class="puzzle-item">
+            <img src="numbers.jpg" alt="Numbers" class="puzzle-image">
+            <p class="puzzle-description">Solve number-based puzzles!</p>
+            <button id="TheNumbersBtn" class="Numbers-btu">Numbers</button>
+        </div>
+    </div>
+</div>
+
          <!-- morseCipher Container -->
           <div id="morseCipherContainer" class="hidden">
              <div class="morse-content">
