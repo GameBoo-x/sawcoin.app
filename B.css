@@ -2,14 +2,14 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    margin-right: 30px; /* مسافة بين الأيقونة والنص لتظهر على اليمين */
+    margin-left: 30px; /* مسافة بين الأيقونة والنص لتظهر على اليمين */
 }
 
 .boosts-button {
     position: fixed;
-    bottom: 120px;
+    bottom: 195px;
     /*top: 60px;*/
-    right: -35px; /* وضع الزر داخل الشاشة بشكل طبيعي */
+    left: -35px; /* وضع الزر داخل الشاشة بشكل طبيعي */
     background-color: rgba(255, 255, 255, 0.05);
     font-size: 16px;
     border: 1px solid #343434;
@@ -20,14 +20,14 @@
     cursor: pointer;
     z-index: 200;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: right 0.3s ease; /* تأثير الانزلاق عند التحويم */
+    transition: left 0.3s ease; /* تأثير الانزلاق عند التحويم */
     display: flex;
     align-items: center;
     justify-content: space-between; /* لجعل النص والصورة على الأطراف */
 }
 
 .boosts-button:hover {
-    right: 15px; /* عند التحويم، يخرج الزر بالكامل إلى الخارج */
+    left: 15px; /* عند التحويم، يخرج الزر بالكامل إلى الخارج */
 }
 
 /*.boos-icon {
