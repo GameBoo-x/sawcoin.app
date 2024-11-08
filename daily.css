@@ -7,7 +7,7 @@
 
 .Daily-button {
     position: fixed;
-    bottom: 600px;
+    bottom: 200px;
     left: -35px; /* وضع الزر داخل الشاشة بشكل طبيعي */
     background-color: rgba(255, 255, 255, 0.05);
     font-size: 16px;
