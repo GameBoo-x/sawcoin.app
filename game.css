@@ -162,6 +162,7 @@
     font-weight: 800;
     background-color: rgba(0, 0, 0, 0.7);
     color: #ffffff;
+    border: 1px solid #343434;
     padding: 8px 16px;
     border-radius: 10px;
     margin-right: 10px;
@@ -173,7 +174,7 @@
     padding: 10px 25px;
     background-color: rgba(0, 0, 0, 0.7);
     color: #ffffff;
-    border: none;
+    border: 1px solid #343434;
     border-radius: 10px;
     font-size: 1.2rem; 
     cursor: pointer;
