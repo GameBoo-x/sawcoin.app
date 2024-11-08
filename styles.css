@@ -600,8 +600,8 @@ body {
 }
 
 .task-item button {
-    background-color: #000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
@@ -688,8 +688,8 @@ body {
     border-radius: 10px;
     border: 1px solid #343434; 
     cursor: pointer;
-    background: linear-gradient(180deg, #1c1c1c, #000);
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
     transition: background-color 0.3s ease;
 }
 
