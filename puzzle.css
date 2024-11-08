@@ -1,13 +1,21 @@
-#Puzzlespage .puzzles-container {
+/*#Puzzlespage .puzzles-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* عمودين في كل صف */
-    gap: 20px; /* المسافة بين الأزرار */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
     justify-items: center;
+    margin-top: 10px;
+}*/
+
+#Puzzlespage .puzzles-container {
+    display: flex;  /* لجعل الحاويات تعرض جنبًا إلى جنب */
+    flex-wrap: wrap; /* لتمكين الحاويات من الانتقال إلى السطر التالي إذا لزم الأمر */
+    gap: 20px; /* المسافة بين الحاويات */
+    justify-content: center; /* محاذاة العناصر في المنتصف */
     margin-top: 10px;
 }
 
 #Puzzlespage .puzzle-item {
-    width: 44%;
+    width: 44%; /* عرض الحاوية بنسبة 44% */
     height: 150px;
     display: flex;
     flex-direction: column;
