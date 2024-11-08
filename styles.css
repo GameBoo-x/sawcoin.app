@@ -1204,3 +1204,12 @@ body {
     margin-right: 5px; /* مسافة بين الصورة والنص */
     vertical-align: middle; /* محاذاة الصورة مع النص */
 }
+
+#Balancec {
+    top: 10px;
+    left: 15px;
+    padding: 10px; /* مسافة داخلية اختيارية */
+    font-size: 20px; /* حجم الخط */
+    display: flex;
+    text-items: left; /* لضبط المحاذاة الرأسية بدقة */
+}
